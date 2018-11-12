@@ -1,0 +1,3 @@
+不合理。
+
+Stack直接继承Vector会造成Vector的公共接口也被公开，但是对于一个Stack实例来说它只应该暴露push, pop, peek等栈应暴露的方法，而不应该暴露insert, delete等Vector才有的方法。
